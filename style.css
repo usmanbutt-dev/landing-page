@@ -1,6 +1,9 @@
 *{
     font-family: "Roboto";
 }
+body {
+    margin: 0;
+}
 .header {
     display: flex;
     height: 10vh;
@@ -9,6 +12,7 @@
     background-color: #1F2937;
     justify-content: space-around;
     align-items: flex-start;
+
 }
 
 .links-container {
@@ -81,7 +85,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 35px;
 }
 
 .box-2 h2 {
@@ -112,4 +116,28 @@
     width: 100px;
     border: 2px solid #3882f6;
     border-radius: 10px;
+}
+
+.quote-box {
+    display: flex;
+    background-color: #e5e7eb;
+    height: auto;
+    padding: 35px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote-box p {
+    font-size: 24px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    width: 50%;
+    text-align: justify;
+}
+
+.quote-box h4 {
+    margin-left:50%;
+    font-weight:900;
 }
